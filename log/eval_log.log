@@ -1,0 +1,2109 @@
+# a model trained by me from scratch
+
+../models/model/ssd_inception_v2_coco.config  160000 step
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.068
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.134
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.063
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.004
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.032
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.129
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.104
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.146
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.152
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.011
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.073
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.280
+
+
+
+
+
+./models/model/fast_rcnn_inception_v2_coco.config
+
+
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.148
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.278
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.137
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.020
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.115
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.240
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.183
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.309
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.333
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.085
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.300
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.510
+
+
+
+
+
+tensorflow official  fast_rcnn_inception_v2_coco
+
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.312
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.506
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.331
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.073
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.289
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.483
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.280
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.438
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.465
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.173
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.462
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.658
+
+
+
+tensorflow offical fast_rcnn_nas_coco
+
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.579
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.778
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.657
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.316
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.592
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.740
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.413
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.646
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.672
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.437
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.694
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.813
+
+
+
+ Megvii (Face++)    0.525   0.729   0.587   0.345   0.556   0.649   0.393   0.645   0.690   0.513   0.727   0.824   2017-10-05
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_resnet101_DC_car_train_all_vars.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car_train_all_vars/train 
+
+ -->eval: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car_train_all_vars/eval
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.86s).
+Accumulating evaluation results...
+DONE (t=0.60s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.653
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.959
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.725
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.316
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.552
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.759
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.132
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.672
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.706
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.400
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.624
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.807
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.93s).
+Accumulating evaluation results...
+DONE (t=0.05s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.649
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.961
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.724
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.286
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.549
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.750
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.134
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.679
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.696
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.378
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.608
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.795
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=1.04s).
+Accumulating evaluation results...
+DONE (t=0.04s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.665
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.969
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.769
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.282
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.589
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.758
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.128
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.681
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.714
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.392
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.654
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.800
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.90s).
+Accumulating evaluation results...
+DONE (t=0.05s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.661
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.968
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.770
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.260
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.588
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_05_30_20_33_12 ---
+
+my_workspace="/home/guicunbin/workspace/workspace_tf_models" TF_models_path="/home/guicunbin/workspace/models" models_configs_path="/home/guicunbin/workspace/models/research/object_detection/samples/configs" model_name="faster_rcnn_resnet101_DC_car_train_all_vars" fine_tune_checkpoint="/home/guicunbin/workspace/TF_ckpt/faster_rcnn_resnet101_kitti_2018_01_28/model.ckpt" from_detection_checkpoint="true" train_tfrecord_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_cate_index_1_train_.record" val_tfrecord_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_cate_index_1_val.record" label_map_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_label_map.pbtxt" metrics_set="coco_detection_metrics" freeze_variables=".*FeatureExtractor.*" freeze_variables_string="freeze_variables: \"${freeze_variables}\"" metrics_set_string="metrics_set: \"${metrics_set}\"" my_workspace_model_path="${my_workspace}/models/${model_name}" PATH_TO_YOUR_PIPELINE_CONFIG="${my_workspace}/model_configs/${model_name}.config" PATH_TO_TRAIN_DIR="${my_workspace_model_path}/train" PATH_TO_EVAL_DIR="${my_workspace_model_path}/eval" EXPORT_DIR="${my_workspace_model_path}/inference" mkdir ${my_workspace_model_path} mkdir ${PATH_TO_TRAIN_DIR} mkdir ${PATH_TO_EVAL_DIR} mkdir ${EXPORT_DIR} #cp ${models_configs_path}/${model_name}.config ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|from_detection_checkpoint:.*|from_detection_checkpoint: ${from_detection_checkpoint}|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|fine_tune_checkpoint_type:.*|from_detection_checkpoint: ${from_detection_checkpoint}|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*label_map.pbtxt\"|\"${label_map_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*train.*record\"|\"${train_tfrecord_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*val.*record\"|\"${val_tfrecord_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|fine_tune_checkpoint: \".*\"|fine_tune_checkpoint: \"${fine_tune_checkpoint}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/${metrics_set_string}/d" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/${freeze_variables_string}/d" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s| num_steps:| #num_steps:|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/eval_config:.*/a\ ${metrics_set_string}" ${PATH_TO_YOUR_PIPELINE_CONFIG} #sed -i "/train_config:.*/a\ ${freeze_variables_string}" ${PATH_TO_YOUR_PIPELINE_CONFIG}
+-->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_resnet101_DC_car_train_all_vars.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car_train_all_vars/train 
+
+ -->eval: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car_train_all_vars/eval
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_05_30_20_34_07 ---
+
+my_workspace="/home/guicunbin/workspace/workspace_tf_models" TF_models_path="/home/guicunbin/workspace/models" models_configs_path="/home/guicunbin/workspace/models/research/object_detection/samples/configs" model_name="faster_rcnn_resnet101_DC_car_train_all_vars" fine_tune_checkpoint="/home/guicunbin/workspace/TF_ckpt/faster_rcnn_resnet101_kitti_2018_01_28/model.ckpt" from_detection_checkpoint="true" train_tfrecord_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_cate_index_1_train_.record" val_tfrecord_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_cate_index_1_val.record" label_map_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_label_map.pbtxt" metrics_set="coco_detection_metrics" freeze_variables=".*FeatureExtractor.*" freeze_variables_string="freeze_variables: \"${freeze_variables}\"" metrics_set_string="metrics_set: \"${metrics_set}\"" my_workspace_model_path="${my_workspace}/models/${model_name}" PATH_TO_YOUR_PIPELINE_CONFIG="${my_workspace}/model_configs/${model_name}.config" PATH_TO_TRAIN_DIR="${my_workspace_model_path}/train" PATH_TO_EVAL_DIR="${my_workspace_model_path}/eval" EXPORT_DIR="${my_workspace_model_path}/inference" mkdir ${my_workspace_model_path} mkdir ${PATH_TO_TRAIN_DIR} mkdir ${PATH_TO_EVAL_DIR} mkdir ${EXPORT_DIR} #cp ${models_configs_path}/${model_name}.config ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|from_detection_checkpoint:.*|from_detection_checkpoint: ${from_detection_checkpoint}|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|fine_tune_checkpoint_type:.*|from_detection_checkpoint: ${from_detection_checkpoint}|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*label_map.pbtxt\"|\"${label_map_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*train.*record\"|\"${train_tfrecord_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*val.*record\"|\"${val_tfrecord_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|fine_tune_checkpoint: \".*\"|fine_tune_checkpoint: \"${fine_tune_checkpoint}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/${metrics_set_string}/d" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/${freeze_variables_string}/d" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s| num_steps:| #num_steps:|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/eval_config:.*/a\ ${metrics_set_string}" ${PATH_TO_YOUR_PIPELINE_CONFIG} #sed -i "/train_config:.*/a\ ${freeze_variables_string}" ${PATH_TO_YOUR_PIPELINE_CONFIG}
+-->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_resnet101_DC_car_train_all_vars.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car_train_all_vars/train 
+
+ -->eval: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car_train_all_vars/eval
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_05_30_20_39_01 ---
+
+my_workspace="/home/guicunbin/workspace/workspace_tf_models" TF_models_path="/home/guicunbin/workspace/models" models_configs_path="/home/guicunbin/workspace/models/research/object_detection/samples/configs" model_name="faster_rcnn_resnet101_DC_car_train_all_vars" fine_tune_checkpoint="/home/guicunbin/workspace/TF_ckpt/faster_rcnn_resnet101_kitti_2018_01_28/model.ckpt" from_detection_checkpoint="true" train_tfrecord_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_cate_index_1_train_.record" val_tfrecord_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_cate_index_1_val.record" label_map_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_label_map.pbtxt" metrics_set="coco_detection_metrics" freeze_variables=".*FeatureExtractor.*" freeze_variables_string="freeze_variables: \"${freeze_variables}\"" metrics_set_string="metrics_set: \"${metrics_set}\"" my_workspace_model_path="${my_workspace}/models/${model_name}" PATH_TO_YOUR_PIPELINE_CONFIG="${my_workspace}/model_configs/${model_name}.config" PATH_TO_TRAIN_DIR="${my_workspace_model_path}/train" PATH_TO_EVAL_DIR="${my_workspace_model_path}/eval" EXPORT_DIR="${my_workspace_model_path}/inference" mkdir ${my_workspace_model_path} mkdir ${PATH_TO_TRAIN_DIR} mkdir ${PATH_TO_EVAL_DIR} mkdir ${EXPORT_DIR} #cp ${models_configs_path}/${model_name}.config ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|from_detection_checkpoint:.*|from_detection_checkpoint: ${from_detection_checkpoint}|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|fine_tune_checkpoint_type:.*|from_detection_checkpoint: ${from_detection_checkpoint}|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*label_map.pbtxt\"|\"${label_map_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*train.*record\"|\"${train_tfrecord_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*val.*record\"|\"${val_tfrecord_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|fine_tune_checkpoint: \".*\"|fine_tune_checkpoint: \"${fine_tune_checkpoint}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/${metrics_set_string}/d" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/${freeze_variables_string}/d" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s| num_steps:| #num_steps:|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/eval_config:.*/a\ ${metrics_set_string}" ${PATH_TO_YOUR_PIPELINE_CONFIG} #sed -i "/train_config:.*/a\ ${freeze_variables_string}" ${PATH_TO_YOUR_PIPELINE_CONFIG}
+-->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_resnet101_DC_car_train_all_vars.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car_train_all_vars/train 
+
+ -->eval: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car_train_all_vars/eval
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.07s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.641
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.970
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.680
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.351
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.540
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.765
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.137
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.691
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.691
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.350
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.604
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.810
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.624
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.968
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.721
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.382
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.516
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.742
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.130
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.670
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.677
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.400
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.596
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.783
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.642
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.969
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.695
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.377
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.544
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.762
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.137
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.698
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.700
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.375
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.625
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.807
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.629
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.970
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.652
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.330
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.532
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.756
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.144
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.679
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.684
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.350
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.600
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.800
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.628
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.958
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.655
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.305
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.534
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.754
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.140
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.675
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.684
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.325
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.608
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.797
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.09s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.624
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.959
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.655
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.306
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.528
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.751
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.139
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.674
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.682
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.325
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.600
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.800
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.628
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.958
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.655
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.306
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.533
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.753
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.140
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.675
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.686
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.325
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.608
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.800
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.639
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.959
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.654
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.330
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.547
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.759
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.144
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.691
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.702
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.350
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.633
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.807
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.634
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.958
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.653
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.281
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.548
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.754
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.135
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.681
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.689
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.325
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.621
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.797
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.632
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.952
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.644
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.282
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.541
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.754
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.140
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.677
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.689
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.325
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.621
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.797
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.624
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.950
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.682
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.281
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.536
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.746
+ Average Recall     (AR) @[ IoU=0.50:0.95
+
+
+
+
+
+
+
+
+
+
+ --- 2018_05_31_10_45_12 ---
+
+my_workspace="/home/guicunbin/workspace/workspace_tf_models" TF_models_path="/home/guicunbin/workspace/models" models_configs_path="/home/guicunbin/workspace/models/research/object_detection/samples/configs" model_name="faster_rcnn_resnet101_DC_car_train_all_vars" fine_tune_checkpoint="/home/guicunbin/workspace/TF_ckpt/faster_rcnn_resnet101_kitti_2018_01_28/model.ckpt" from_detection_checkpoint="true" train_tfrecord_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_cate_index_1_train_.record" val_tfrecord_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_cate_index_1_val.record" label_map_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_label_map.pbtxt" metrics_set="coco_detection_metrics" freeze_variables=".*FeatureExtractor.*" freeze_variables_string="freeze_variables: \"${freeze_variables}\"" metrics_set_string="metrics_set: \"${metrics_set}\"" my_workspace_model_path="${my_workspace}/models/${model_name}" PATH_TO_YOUR_PIPELINE_CONFIG="${my_workspace}/model_configs/${model_name}.config" PATH_TO_TRAIN_DIR="${my_workspace_model_path}/train" PATH_TO_EVAL_DIR="${my_workspace_model_path}/eval" EXPORT_DIR="${my_workspace_model_path}/inference" mkdir ${my_workspace_model_path} mkdir ${PATH_TO_TRAIN_DIR} mkdir ${PATH_TO_EVAL_DIR} mkdir ${EXPORT_DIR} #cp ${models_configs_path}/${model_name}.config ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|from_detection_checkpoint:.*|from_detection_checkpoint: ${from_detection_checkpoint}|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|fine_tune_checkpoint_type:.*|from_detection_checkpoint: ${from_detection_checkpoint}|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*label_map.pbtxt\"|\"${label_map_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*train.*record\"|\"${train_tfrecord_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*val.*record\"|\"${val_tfrecord_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|fine_tune_checkpoint: \".*\"|fine_tune_checkpoint: \"${fine_tune_checkpoint}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/${metrics_set_string}/d" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/${freeze_variables_string}/d" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s| num_steps:| #num_steps:|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/eval_config:.*/a\ ${metrics_set_string}" ${PATH_TO_YOUR_PIPELINE_CONFIG} #sed -i "/train_config:.*/a\ ${freeze_variables_string}" ${PATH_TO_YOUR_PIPELINE_CONFIG}
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_resnet101_DC_car_train_all_vars.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car_train_all_vars/inference/ 
+
+ -->eval: ./log/eval/2018_05_31_10_45_12/
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_05_31_10_46_44 ---
+
+my_workspace="/home/guicunbin/workspace/workspace_tf_models" TF_models_path="/home/guicunbin/workspace/models" models_configs_path="/home/guicunbin/workspace/models/research/object_detection/samples/configs" model_name="faster_rcnn_resnet101_DC_car_train_all_vars" fine_tune_checkpoint="/home/guicunbin/workspace/TF_ckpt/faster_rcnn_resnet101_kitti_2018_01_28/model.ckpt" from_detection_checkpoint="true" train_tfrecord_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_cate_index_1_train_.record" val_tfrecord_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_cate_index_1_val.record" label_map_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_label_map.pbtxt" metrics_set="coco_detection_metrics" freeze_variables=".*FeatureExtractor.*" freeze_variables_string="freeze_variables: \"${freeze_variables}\"" metrics_set_string="metrics_set: \"${metrics_set}\"" my_workspace_model_path="${my_workspace}/models/${model_name}" PATH_TO_YOUR_PIPELINE_CONFIG="${my_workspace}/model_configs/${model_name}.config" PATH_TO_TRAIN_DIR="${my_workspace_model_path}/train" PATH_TO_EVAL_DIR="${my_workspace_model_path}/eval" EXPORT_DIR="${my_workspace_model_path}/inference" mkdir ${my_workspace_model_path} mkdir ${PATH_TO_TRAIN_DIR} mkdir ${PATH_TO_EVAL_DIR} mkdir ${EXPORT_DIR} #cp ${models_configs_path}/${model_name}.config ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|from_detection_checkpoint:.*|from_detection_checkpoint: ${from_detection_checkpoint}|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|fine_tune_checkpoint_type:.*|from_detection_checkpoint: ${from_detection_checkpoint}|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*label_map.pbtxt\"|\"${label_map_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*train.*record\"|\"${train_tfrecord_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*val.*record\"|\"${val_tfrecord_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|fine_tune_checkpoint: \".*\"|fine_tune_checkpoint: \"${fine_tune_checkpoint}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/${metrics_set_string}/d" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/${freeze_variables_string}/d" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s| num_steps:| #num_steps:|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/eval_config:.*/a\ ${metrics_set_string}" ${PATH_TO_YOUR_PIPELINE_CONFIG} #sed -i "/train_config:.*/a\ ${freeze_variables_string}" ${PATH_TO_YOUR_PIPELINE_CONFIG}
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_resnet101_DC_car_train_all_vars.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car_train_all_vars/inference/ 
+
+ -->eval: ./log/eval/2018_05_31_10_46_44/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.13s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.584
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.970
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.633
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.332
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.434
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.732
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.126
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.635
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.644
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.400
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.521
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.779
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_05_31_10_49_13 ---
+
+my_workspace="/home/guicunbin/workspace/workspace_tf_models" TF_models_path="/home/guicunbin/workspace/models" models_configs_path="/home/guicunbin/workspace/models/research/object_detection/samples/configs" model_name="faster_rcnn_resnet101_DC_car_train_all_vars" fine_tune_checkpoint="/home/guicunbin/workspace/TF_ckpt/faster_rcnn_resnet101_kitti_2018_01_28/model.ckpt" from_detection_checkpoint="true" train_tfrecord_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_cate_index_1_train_.record" val_tfrecord_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_cate_index_1_val.record" label_map_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_label_map.pbtxt" metrics_set="coco_detection_metrics" freeze_variables=".*FeatureExtractor.*" freeze_variables_string="freeze_variables: \"${freeze_variables}\"" metrics_set_string="metrics_set: \"${metrics_set}\"" my_workspace_model_path="${my_workspace}/models/${model_name}" PATH_TO_YOUR_PIPELINE_CONFIG="${my_workspace}/model_configs/${model_name}.config" PATH_TO_TRAIN_DIR="${my_workspace_model_path}/train" PATH_TO_EVAL_DIR="${my_workspace_model_path}/eval" EXPORT_DIR="${my_workspace_model_path}/inference" mkdir ${my_workspace_model_path} mkdir ${PATH_TO_TRAIN_DIR} mkdir ${PATH_TO_EVAL_DIR} mkdir ${EXPORT_DIR} #cp ${models_configs_path}/${model_name}.config ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|from_detection_checkpoint:.*|from_detection_checkpoint: ${from_detection_checkpoint}|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|fine_tune_checkpoint_type:.*|from_detection_checkpoint: ${from_detection_checkpoint}|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*label_map.pbtxt\"|\"${label_map_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*train.*record\"|\"${train_tfrecord_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*val.*record\"|\"${val_tfrecord_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|fine_tune_checkpoint: \".*\"|fine_tune_checkpoint: \"${fine_tune_checkpoint}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/${metrics_set_string}/d" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/${freeze_variables_string}/d" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s| num_steps:| #num_steps:|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/eval_config:.*/a\ ${metrics_set_string}" ${PATH_TO_YOUR_PIPELINE_CONFIG} #sed -i "/train_config:.*/a\ ${freeze_variables_string}" ${PATH_TO_YOUR_PIPELINE_CONFIG}
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_resnet101_DC_car_train_all_vars.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car_train_all_vars/inference/ 
+
+ -->eval: ./log/eval/2018_05_31_10_49_13/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.96s).
+Accumulating evaluation results...
+DONE (t=0.08s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.607
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.970
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.693
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.240
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.480
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.725
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.121
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.634
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.667
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.394
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.576
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.769
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_05_31_10_56_38 ---
+
+my_workspace="/home/guicunbin/workspace/workspace_tf_models" TF_models_path="/home/guicunbin/workspace/models" models_configs_path="/home/guicunbin/workspace/models/research/object_detection/samples/configs" model_name="faster_rcnn_resnet101_DC_car_train_all_vars" fine_tune_checkpoint="/home/guicunbin/workspace/TF_ckpt/faster_rcnn_resnet101_kitti_2018_01_28/model.ckpt" from_detection_checkpoint="true" train_tfrecord_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_cate_index_1_train_.record" val_tfrecord_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_cate_index_1_val.record" label_map_path="/home/guicunbin/workspace/dataset/DC_car_detect/DC_car_label_map.pbtxt" metrics_set="coco_detection_metrics" freeze_variables=".*FeatureExtractor.*" freeze_variables_string="freeze_variables: \"${freeze_variables}\"" metrics_set_string="metrics_set: \"${metrics_set}\"" my_workspace_model_path="${my_workspace}/models/${model_name}" PATH_TO_YOUR_PIPELINE_CONFIG="${my_workspace}/model_configs/${model_name}.config" PATH_TO_TRAIN_DIR="${my_workspace_model_path}/train" PATH_TO_EVAL_DIR="${my_workspace_model_path}/eval" EXPORT_DIR="${my_workspace_model_path}/inference" mkdir ${my_workspace_model_path} mkdir ${PATH_TO_TRAIN_DIR} mkdir ${PATH_TO_EVAL_DIR} mkdir ${EXPORT_DIR} #cp ${models_configs_path}/${model_name}.config ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|from_detection_checkpoint:.*|from_detection_checkpoint: ${from_detection_checkpoint}|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|fine_tune_checkpoint_type:.*|from_detection_checkpoint: ${from_detection_checkpoint}|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*label_map.pbtxt\"|\"${label_map_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*train.*record\"|\"${train_tfrecord_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|\".*val.*record\"|\"${val_tfrecord_path}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s|fine_tune_checkpoint: \".*\"|fine_tune_checkpoint: \"${fine_tune_checkpoint}\"|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/${metrics_set_string}/d" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/${freeze_variables_string}/d" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "s| num_steps:| #num_steps:|g" ${PATH_TO_YOUR_PIPELINE_CONFIG} sed -i "/eval_config:.*/a\ ${metrics_set_string}" ${PATH_TO_YOUR_PIPELINE_CONFIG} #sed -i "/train_config:.*/a\ ${freeze_variables_string}" ${PATH_TO_YOUR_PIPELINE_CONFIG}
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_resnet101_DC_car_train_all_vars.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car_train_all_vars/inference/ 
+
+ -->eval: ./log/eval/2018_05_31_10_56_38/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=119.91s).
+Accumulating evaluation results...
+DONE (t=15.04s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.580
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.961
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.620
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.188
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.480
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.719
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.103
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.547
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.634
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.430
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.561
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.760
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_05_31_12_50_40 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_resnet101_DC_car_train_all_vars.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car_train_all_vars/inference_get_DC_car_0.66_by_score_min_0.8/ 
+
+ -->eval: ./log/eval/2018_05_31_12_50_40/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=112.63s).
+Accumulating evaluation results...
+DONE (t=13.81s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.681
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.967
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.793
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.340
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.613
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.789
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.111
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.630
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.729
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.481
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.682
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.831
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_05_31_19_02_48 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_resnet101_DC_car_train_all_vars.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car_train_all_vars/inference/ 
+
+ -->eval: ./log/eval/2018_05_31_19_02_48/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=150.47s).
+Accumulating evaluation results...
+DONE (t=30.03s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.643
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.970
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.732
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.320
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.564
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.756
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.107
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.597
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.692
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.478
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.636
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.799
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_05_31_19_31_20 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_resnet101_DC_car_train_all_vars.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car_train_all_vars/inference/ 
+
+ -->eval: ./log/eval/2018_05_31_19_31_20/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=117.61s).
+Accumulating evaluation results...
+DONE (t=19.88s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.641
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.967
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.736
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.324
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.564
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.753
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.106
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.596
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.690
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.483
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.635
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.794
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_05_31_19_57_20 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_resnet101_DC_car_train_all_vars.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car_train_all_vars/inference/ 
+
+ -->eval: ./log/eval/2018_05_31_19_57_20/
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_05_31_19_59_08 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_resnet101_DC_car_train_all_vars.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car_train_all_vars/train/ 
+
+ -->eval: ./log/eval/2018_05_31_19_59_08/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=120.12s).
+Accumulating evaluation results...
+DONE (t=15.50s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.636
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.970
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.724
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.318
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.559
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.746
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.106
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.591
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.686
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.482
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.630
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.789
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_01_17_40_00 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_resnet101_DC_car.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_resnet101_DC_car/inference 
+
+ -->eval: ./log/eval/2018_06_01_17_40_00/
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_01_17_41_01 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_inception_resnet_v2_atrous_DC_car.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_inception_resnet_v2_atrous_DC_car/inference 
+
+ -->eval: ./log/eval/2018_06_01_17_41_01/
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_01_17_43_11 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_inception_resnet_v2_atrous_DC_car.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_inception_resnet_v2_atrous_DC_car/inference 
+
+ -->eval: ./log/eval/2018_06_01_17_43_11/
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_01_17_48_39 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_inception_resnet_v2_atrous_DC_car.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_inception_resnet_v2_atrous_DC_car/inference 
+
+ -->eval: ./log/eval/2018_06_01_17_48_39/
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_01_18_44_32 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_inception_resnet_v2_atrous_DC_car.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_inception_resnet_v2_atrous_DC_car/inference 
+
+ -->eval: ./log/eval/2018_06_01_18_44_32/
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_01_19_56_18 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_inception_resnet_v2_atrous_DC_car.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_inception_resnet_v2_atrous_DC_car/inference 
+
+ -->eval: ./log/eval/2018_06_01_19_56_18/
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_06_20_19_16 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_inception_v2_coco/train/ 
+
+ -->eval: ./log/eval/2018_06_06_20_19_16/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=133.31s).
+Accumulating evaluation results...
+DONE (t=45.33s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.176
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.318
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.164
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.027
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.164
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.279
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.202
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.322
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.345
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.100
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.323
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.520
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=133.75s).
+Accumulating evaluation results...
+DONE (t=45.15s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.178
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.321
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.164
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.028
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.164
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.283
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.199
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.328
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.353
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.089
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.339
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.530
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=131.26s).
+Accumulating evaluation results...
+DONE (t=43.62s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.174
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.318
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.166
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.027
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.162
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.275
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.196
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.324
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.346
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.096
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.332
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.515
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=128.31s).
+Accumulating evaluation results...
+DONE (t=50.03s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.175
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.321
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.161
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.028
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.163
+ Average Precisi
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_07_14_43_16 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/TF_ckpt/faster_rcnn_inception_v2_coco_2018_01_28/frozen_inference_graph.pb 
+
+ -->eval: ./log/eval/2018_06_07_14_43_16/
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_07_15_29_56 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/TF_ckpt/faster_rcnn_inception_v2_coco_2018_01_28/model.ckpt 
+
+ -->eval: ./log/eval/2018_06_07_15_29_56/
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_07_16_18_19 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/TF_ckpt/faster_rcnn_inception_v2_coco_2018_01_28/ 
+
+ -->eval: ./log/eval/2018_06_07_16_18_19/
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_07_20_02_20 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/TF_ckpt/faster_rcnn_inception_v2_coco_2018_01_28/ 
+
+ -->eval: ./log/eval/2018_06_07_20_02_20/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=115.13s).
+Accumulating evaluation results...
+DONE (t=42.10s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.320
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.519
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.331
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.069
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.322
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.496
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.278
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.438
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.466
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.166
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.483
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.659
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_07_20_59_10 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_inception_v2_coco/train/ 
+
+ -->eval: ./log/eval/2018_06_07_20_59_10/
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_07_21_07_40 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/ssd_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/ssd_inception_v2_coco/train/ 
+
+ -->eval: ./log/eval/2018_06_07_21_07_40/
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_07_21_09_06 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/ssd_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/ssd_inception_v2_coco/train/ 
+
+ -->eval: ./log/eval/2018_06_07_21_09_06/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=62.89s).
+Accumulating evaluation results...
+DONE (t=14.43s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.083
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.156
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.080
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.004
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.049
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.161
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.115
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.167
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.172
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.010
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.099
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.314
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=133.06s).
+Accumulating evaluation results...
+DONE (t=52.22s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.175
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.324
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.161
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.030
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.168
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.277
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.196
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.324
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.348
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.095
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.325
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.520
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=134.32s).
+Accumulating evaluation results...
+DONE (t=53.05s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.179
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.333
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.166
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.027
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.171
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.287
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.197
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.328
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.351
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.091
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.334
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.524
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=136.02s).
+Accumulating evaluation results...
+DONE (t=48.59s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.177
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.320
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.169
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.027
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.162
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.292
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.198
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.324
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.344
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.095
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.328
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.516
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=136.78s).
+Accumulating evaluation results...
+DONE (t=46.97s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.180
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.331
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.170
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.027
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.169
+ Average Precisi
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_09_13_55_45 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/faster_rcnn_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/faster_rcnn_inception_v2_coco/train/ 
+
+ -->eval: ./log/eval/2018_06_09_13_55_45/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=113.00s).
+Accumulating evaluation results...
+DONE (t=41.43s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.191
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.341
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.187
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.033
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.180
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.308
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.207
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.341
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.366
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.100
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.348
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.540
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=116.53s).
+Accumulating evaluation results...
+DONE (t=43.38s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.193
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.351
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.182
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.034
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.179
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.308
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.207
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.344
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.369
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.100
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.356
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.549
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=118.58s).
+Accumulating evaluation results...
+DONE (t=37.72s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.186
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.338
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.178
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.029
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.178
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.301
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.206
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.333
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.358
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.099
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.341
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.531
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=122.73s).
+Accumulating evaluation results...
+DONE (t=41.41s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.191
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.343
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.184
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.029
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.172
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.309
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.203
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.334
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.356
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.091
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.335
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.533
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=119.21s).
+Accumulating evaluation results...
+DONE (t=43.83s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.188
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.338
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.180
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.032
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.178
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.306
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.207
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.339
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.364
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.092
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.350
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.543
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=119.90s).
+Accumulating evaluation results...
+DONE (t=47.07s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.192
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.350
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.182
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.030
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.178
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.309
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.208
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.343
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.366
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.094
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.352
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.549
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=119.19s).
+Accumulating evaluation results...
+DONE (t=38.23s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.188
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.339
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.180
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.029
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.178
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.309
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.206
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.338
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.362
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.095
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.348
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.542
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=119.04s).
+Accumulating evaluation results...
+DONE (t=39.49s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.186
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.332
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.179
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.030
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.177
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.305
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.203
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.337
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.359
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.095
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.351
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.531
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=116.11s).
+Accumulating evaluation results...
+DONE (t=37.53s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.188
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.334
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.181
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.031
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.173
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.308
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.206
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.339
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.362
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.096
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.353
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.534
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=120.30s).
+Accumulating evaluation results...
+DONE (t=39.14s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.191
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.344
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.187
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.033
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.181
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.304
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.209
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.341
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.366
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.104
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.357
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.539
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_11_15_58_59 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/ssd_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/ssd_inception_v2_coco/train/ 
+
+ -->eval: ./log/eval/2018_06_11_15_58_59/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=62.09s).
+Accumulating evaluation results...
+DONE (t=13.66s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.082
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.147
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.080
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.005
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.043
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.158
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.100
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.142
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.149
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.019
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.078
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.275
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_11_20_32_49 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/ssd_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/ssd_inception_v2_coco/train/ 
+
+ -->eval: ./log/eval/2018_06_11_20_32_49/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=55.81s).
+Accumulating evaluation results...
+DONE (t=11.15s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.120
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.236
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.116
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.007
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.075
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.230
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.147
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.214
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.223
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.017
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.162
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.397
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=57.88s).
+Accumulating evaluation results...
+DONE (t=12.13s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.119
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.216
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.119
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.009
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.083
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.226
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.139
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.210
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.219
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.025
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.162
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.383
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_11_22_58_28 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/ssd_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/ssd_inception_v2_coco/train/ 
+
+ -->eval: ./log/eval/2018_06_11_22_58_28/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=59.66s).
+Accumulating evaluation results...
+DONE (t=11.21s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.120
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.220
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.113
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.008
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.070
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.233
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.145
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.211
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.221
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.025
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.135
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.410
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=54.48s).
+Accumulating evaluation results...
+DONE (t=11.34s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.117
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.208
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.120
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.006
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.069
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.225
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.141
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.204
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.212
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.011
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.125
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.390
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=57.65s).
+Accumulating evaluation results...
+DONE (t=11.36s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.134
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.236
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.133
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.010
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.091
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.254
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.156
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.231
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.243
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.020
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.169
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.440
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_12_09_30_58 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/ssd_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/ssd_inception_v2_coco/train/ 
+
+ -->eval: ./log/eval/2018_06_12_09_30_58/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=55.88s).
+Accumulating evaluation results...
+DONE (t=10.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.118
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.211
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.116
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.011
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.082
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.224
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.142
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.201
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.211
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.024
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.149
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.366
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=69.09s).
+Accumulating evaluation results...
+DONE (t=14.17s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.123
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.224
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.125
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.009
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.074
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.230
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.148
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.219
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.230
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.021
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.157
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.392
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_14_09_37_33 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/ssd_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/ssd_inception_v2_coco/train/ 
+
+ -->eval: ./log/eval/2018_06_14_09_37_33/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=61.36s).
+Accumulating evaluation results...
+DONE (t=11.46s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.206
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.341
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.211
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.018
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.121
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.379
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.205
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.303
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.319
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.042
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.233
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.542
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=59.87s).
+Accumulating evaluation results...
+DONE (t=10.75s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.207
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.346
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.205
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.018
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.129
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.370
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.209
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.303
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.319
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.041
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.234
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.537
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=66.45s).
+Accumulating evaluation results...
+DONE (t=12.72s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.205
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.347
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.209
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.018
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.125
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.373
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.208
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.303
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.319
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.040
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.231
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.538
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_15_12_30_43 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/ssd_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/TF_ckpt/ssd_inception_v2_coco_2017_11_17/ 
+
+ -->eval: ./log/eval/2018_06_15_12_30_43/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=64.59s).
+Accumulating evaluation results...
+DONE (t=12.45s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.314
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.487
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.329
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.027
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.190
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.584
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.272
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.390
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.408
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.053
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.315
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.702
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_15_15_57_43 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/ssd_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/ssd_inception_v2_coco/train/ 
+
+ -->eval: ./log/eval/2018_06_15_15_57_43/
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_15_17_16_29 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/ssd_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/ssd_inception_v2_coco/train/ 
+
+ -->eval: ./log/eval/2018_06_15_17_16_29/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=67.69s).
+Accumulating evaluation results...
+DONE (t=13.15s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.212
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.352
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.218
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.019
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.133
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.387
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.212
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.311
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.328
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.042
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.243
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.554
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=73.40s).
+Accumulating evaluation results...
+DONE (t=15.63s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.216
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.356
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.221
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.018
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.135
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.392
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.216
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.311
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.327
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.038
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.239
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.555
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_16_10_01_55 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/ssd_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/ssd_inception_v2_coco/train/ 
+
+ -->eval: ./log/eval/2018_06_16_10_01_55/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=70.38s).
+Accumulating evaluation results...
+DONE (t=14.95s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.214
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.359
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.216
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.018
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.132
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.391
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.210
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.305
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.321
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.034
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.236
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.547
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=79.15s).
+Accumulating evaluation results...
+DONE (t=15.53s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.213
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.353
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.217
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.019
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.132
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.388
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.211
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.306
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.321
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.039
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.234
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.539
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=2545.11s).
+Accumulating evaluation results...
+DONE (t=30.88s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.216
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.358
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.220
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.020
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.133
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.389
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.217
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.312
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.328
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.039
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.245
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.551
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=90.49s).
+Accumulating evaluation results...
+DONE (t=23.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.213
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.358
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.219
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.019
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.133
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.386
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.211
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.310
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.326
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.041
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.242
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.552
+
+
+
+
+
+
+
+
+
+
+
+ --- 2018_06_17_22_03_30 ---
+
+
+ -->pipe: /home/guicunbin/workspace/workspace_tf_models/model_configs/ssd_inception_v2_coco.config
+
+-->ckpt: /home/guicunbin/workspace/workspace_tf_models/models/ssd_inception_v2_coco/train/ 
+
+ -->eval: ./log/eval/2018_06_17_22_03_30/
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=89.96s).
+Accumulating evaluation results...
+DONE (t=17.87s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.213
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.352
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.217
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.017
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.133
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.390
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.213
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.310
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.326
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.036
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.243
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.567
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=74.14s).
+Accumulating evaluation results...
+DONE (t=16.21s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.213
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.352
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.217
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.017
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.133
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.390
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.213
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.310
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.326
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.036
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.243
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.567
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=82.45s).
+Accumulating evaluation results...
+DONE (t=17.17s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.213
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.352
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.221
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.018
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.132
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.389
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.213
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.309
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.324
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.037
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.239
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.550
